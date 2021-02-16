@@ -1,8 +1,12 @@
 body{
     background-color: #005090;
 }
-h{
+h1{
     color: #FFFFFF;
+}
+#hd1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 p{
     color: #FFFFFF;
@@ -10,6 +14,8 @@ p{
 li{
     color: #FFFFFF;
 }
-a{
-    color: #FFFFFF;
+nav{
+    color: black;
+    background-color: lightblue;
+    text-align: center;
 }
