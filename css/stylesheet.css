@@ -1,5 +1,14 @@
 body{
-    background-color: #005090;
+    background-color: #334259;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:large;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color: purple;
 }
 h1{
     color: #FFFFFF;
@@ -8,14 +17,27 @@ h1{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-p{
-    color: #FFFFFF;
-}
 li{
-    color: #FFFFFF;
+    list-style: none;
 }
 nav{
     color: black;
-    background-color: lightblue;
+    background-color: #A6CAD4;
     text-align: center;
+}
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+}
+.about-item{
+    padding: 5px;
+}
+footer{
+    text-align: center;  
+    background-color: #A6CAD4;
+    color:black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
