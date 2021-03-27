@@ -1,63 +1,80 @@
-html{
-    width: 100%;
-}
-body{
-    background-color: #334259;
-    color: #FFFFFF;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size:large;
-}
-a:link{
-    color:black;
-}
-a:visited{
-    color: purple;
-}
-h1{
-    color: #FFFFFF;
-}
-#hd1{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-li{
-    list-style: none;
-}
-nav{
-    color: black;
-    background-color: #A6CAD4;
-    text-align: center;
-}
-.about{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 10px;
-}
-.about-item{
-    padding: 5px;
-}
-.courses{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    
+@media screen and (min-width:400px){
+    html{
+        width: 100%;
+    }
+    body{
+        background-color: #334259;
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size:large;
+        margin-bottom: 30px;
+    }
+    a:link{
+        color:grey;
+        text-decoration: none;
+    }
+    a:visited{
+        color: purple;
+    }
+    h1{
+        color: #FFFFFF;
+    }
+    #hd1{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    li{
+        list-style: none;
+    }
+    nav{
+        color: black;
+        background-color: #A6CAD4;
+        text-align: center;
+    }
+    .about{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+    .about-item{
+        padding: 5px;
+    }
+    .courses{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
 
-    
-    
+    }
+    .courses li{
+        border-bottom: 1px solid black;
+        width: 100%;
+        
+    }
+    .courses li p{
+        text-align: left;
+    }
+    footer{
+        text-align: center;  
+        background-color: #A6CAD4;
+        color:black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width:400) {
+    body{
+        background-color: #334259;
+        color: #FFFFFF;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size:xx-large;
+        margin-bottom: 50px;
+    }
+}
 
-}
-.courses li{
-    border-bottom: 1px solid black;
-    width: 100%;
-    
-}
 
-footer{
-    text-align: center;  
-    background-color: #A6CAD4;
-    color:black;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
+
+
+
